@@ -22,7 +22,6 @@
     text-decoration: none;
     text-transform: uppercase;
     transition: all .2s linear;
-    background: rgb(254, 252, 252);
 }
 html{
     font-size: 60%;
@@ -35,12 +34,12 @@ header{
     left: 0;
     right: 0;
     z-index: 1000;
-    background: #f9f7f7;
+    background: white;
     padding: 2rem 9%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    box-shadow: 0 .5rem 1rem rgba(1, 28, 165, 0.1);
 }
 header .logo{
     font-size: 2rem;
@@ -53,8 +52,8 @@ header .navbar a{
     margin: 0 2rem;
 }
 header .navbar a:hover{
-    color: black;
-    background: white;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 29, 159);
     /* border: 2px solid rgb(0, 34, 255); */
     /* background: rgb(0, 21, 255); */
 }
@@ -82,6 +81,7 @@ section{
 .home{
     padding: 0;
     position: relative;
+   background:  white;
 }
 .home .slide-container .slide{
     min-height: 100vh;
@@ -120,7 +120,7 @@ section{
 }
 .home .slide-container .slide .content span{
     font-size: 2rem;
-    color: rgb(0, 34, 255);
+    color: rgb(0, 29, 159);
 }
 .home .slide-container .slide .content h3{
     font-size: 5rem;
@@ -140,14 +140,14 @@ section{
     font-size: 1.7rem;
     color: #fbf8f8;
     cursor: pointer;
-    background: #000000;
+    background: rgb(0, 29, 159);
     padding: .8rem 3rem;
 }
 
 .btn:hover{
     background: rgb(252, 251, 251);
-    color: rgb(0, 0, 0);
-    border: .2rem solid #0e0e0e;
+    color: rgb(0, 29, 159);
+    border: .2rem solid rgb(0, 29, 159);
 }
 .home .slide-container{
     display: none;
@@ -164,15 +164,15 @@ section{
     width: 5rem;
     line-height: 5.5rem;
     font-size: 2rem;
-    color: #000000;
-    border:.2rem solid #000000;
+    color: rgb(0, 29, 159);
+    border:.2rem solid rgb(0, 29, 159);
     border-radius: 50%;
     text-align: center;
     cursor: pointer;
 }
 .home #prev:hover,.home #next:hover{
     color: #fbf8f8;
-    background: rgb(0, 0, 0);
+    background: rgb(0, 29, 159);
 }
 .home #prev{
     left: 3rem;
@@ -189,7 +189,7 @@ section{
     text-transform: uppercase;
 }
 .heading span{
-    color: rgb(0, 34, 255);
+    color: rgb(0, 29, 159);
 }
 .product .box-container{
     display: flex;
@@ -197,12 +197,12 @@ section{
     gap: 1.5rem;
 }
 .product .box-container .box{
-    border: .1rem solid rgba(0, 0, 0, .1);
+    border: .1rem solid rgb(0, 29, 159);
     border-radius: .5rem;
     text-align: center;
     position: relative;
     overflow: hidden;
-    background: #000000;
+    background: white;
     flex: 1 1 30rem;
 }
 .product .box-container .content{
@@ -245,8 +245,8 @@ section{
     left: 1rem;
 }
 .product .box-container .box .icons a:hover{
-    color: rgb(0, 34, 255);
-    color: #0e02f3;
+    color: rgb(0, 29, 159);
+    color: rgb(0, 29, 159);
 }
 .product .box-container .box .content h3{
     color: #0a0a0a;
@@ -254,7 +254,7 @@ section{
 }
 .product .box-container .box .content .price{
     color: #000;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     font-weight: bolder;
     padding: 1rem 0;
 }
@@ -268,16 +268,16 @@ section{
 }
 .product .box-container .box .content .stars i{
     font-size: 1.7rem;
-    color: rgb(0, 34, 255);
+    color: rgb(0, 29, 159);
 }
 /* end product  */
 .featured .row{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-    border: .1rem solid rgba(0, 0, 0, .1);
+    border: .1rem solid rgb(0, 29, 159);
     border-radius: .5rem;
-    background: #000000;
+    background: white;
     padding: 2rem;
     align-items: center;
     margin: 1.5rem 0;
@@ -305,7 +305,7 @@ section{
     cursor: pointer;
 }
 .featured .row .image-container .small-image img:hover{
-    background: #1505c9;
+    background: rgb(0, 29, 159);
 }
 .featured .row .image-container .big-image img{
     width: 100%;
@@ -319,7 +319,7 @@ section{
 }
 .featured .row .content .stars i{
     font-size: 1.7rem;
-    color: rgb(0, 34, 255);
+    color: rgb(0, 29, 159);
     padding: .5rem 0;
 }
 .featured .row .content p{
@@ -334,7 +334,7 @@ section{
 }
 .featured .row .content .price span{
     font-size: 1.5rem;
-    color: rgb(0, 34, 255);
+    color: rgb(0, 29, 159);
     text-decoration: line-through;
 }
 /* end featured  */
@@ -348,7 +348,7 @@ section{
     text-align: center;
     border: .1rem solid rgba(0, 0, 0, .1);
     border-radius: .5rem;
-    background: #3d3c3c;
+    background: rgb(0, 29, 159);
     padding: 2rem;
 }
 .blog .box-container .box img{
@@ -357,22 +357,22 @@ section{
     height: 15rem;
     width: 15rem;
     margin: 1rem 0;
-    border: 4px solid #0433ef;
+    border: 4px solid white;
 }
 .blog .box-container .box img:hover{
    transform: scale(1.2);
 }
 .blog .box-container .box h3{
     font-size: 2.5rem;
-    color: #000;
+    color: white;
 }
 .blog .box-container .box p{
     font-size: 1.6rem;
-    color: #666;
+    color: white;
     padding: 1rem 0;
 }
 .blog .box-container .box .stars i{
-    color: rgb(0, 34, 255);
+    color: rgb(0, 29, 159);
     font-size: 2rem;
 }
 /* end blog  */
@@ -393,7 +393,7 @@ section{
 }
 .news .content p{
     font-size: 1.5rem;
-    color: #666;
+    color: black;
     margin: 1rem auto;
     max-width: 60rem;
 }
@@ -407,7 +407,7 @@ section{
     width: 100%;
     font-size: 1.7rem;
     text-transform: none;
-    color: #333;
+    color: black;
     padding: 1rem;
     border: .2rem solid #000;
     border-right: none;
